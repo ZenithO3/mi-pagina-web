@@ -31,8 +31,9 @@ p {
 }
 
 .logo img {
-    max-width: 150px; /* Ajusta este valor según el tamaño deseado del logo */
+    max-width: 250px; /* Ajusta este valor según el tamaño deseado del logo */
     height: auto;
+    margin: 20px auto;
 }
 
 .container {
