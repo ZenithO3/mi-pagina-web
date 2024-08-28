@@ -14,12 +14,13 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #CCC;
+    color: #000000; /* Cambiado a negro */
     margin-bottom: 10px;
 }
 
 p {
     font-size: 1.2em;
+    text-align: center; /* Centrando el texto en los párrafos */
     margin: 10px 0;
 }
 
@@ -30,13 +31,14 @@ p {
 }
 
 .logo img {
-    max-width: 100px;
+    max-width: 150px; /* Ajusta este valor según el tamaño deseado del logo */
     height: auto;
 }
 
 .container {
     max-width: 800px;
     margin: auto;
+    text-align: center; /* Asegura que todo dentro del contenedor esté centrado */
 }
 
 footer {
@@ -44,6 +46,4 @@ footer {
     padding: 10px;
     margin-top: 30px;
     border-top: 1px solid #333;
-    color: #888;
 }
-
