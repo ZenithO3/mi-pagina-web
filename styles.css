@@ -38,6 +38,8 @@ h1 {
     background: linear-gradient(to right, #f4d35e, #f76c6c);
     padding: 20px;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .button {
@@ -61,4 +63,24 @@ footer {
     color: #888;
     border-top: 1px solid #ddd;
     margin-top: 30px;
+}
+
+.graphic {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.graphic img {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Imagen de fondo decorativa */
+.circus-top {
+    width: 100%;
+    height: auto;
+    background-image: url('images/arriba.png'); /* Aquí se insertará la imagen de la carpa */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
 }
