@@ -79,7 +79,7 @@ footer {
 .circus-top {
     width: 100%;
     height: auto;
-    background-image: url('images/arriba.png'); /* Aquí se insertará la imagen de la carpa */
+    background-image: url('arriba.png.webp'); /* Aquí se insertará la imagen de la carpa */
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
