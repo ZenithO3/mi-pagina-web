@@ -1,5 +1,5 @@
 body {
-    font-family: 'Georgia', serif; /* Cambiado a una fuente serif */
+    font-family: 'Georgia', serif; /* Fuente serif */
     background-color: #f4f4f4; /* Color de fondo suave */
     color: #333; /* Texto oscuro suave */
     margin: 0;
@@ -33,8 +33,9 @@ p {
 }
 
 .logo img {
-    max-width: 50px;
+    max-width: 100px; /* Tamaño ajustado del logo */
     height: auto;
+    margin-left: 20px; /* Espacio entre el logo y el texto */
 }
 
 .container {
