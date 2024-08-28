@@ -6,10 +6,16 @@ body {
     padding: 20px;
 }
 
-h1 {
-    text-align: center;
-    font-size: 3em;
+.header {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
     margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-right: 10px; /* Espacio entre el texto y el logo */
 }
 
 h2 {
@@ -20,26 +26,19 @@ h2 {
 
 p {
     font-size: 1.2em;
-    text-align: center; /* Centrando el texto en los párrafos */
+    text-align: center;
     margin: 10px 0;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 60px;
-}
-
 .logo img {
-    max-width: 250px; /* Ajusta este valor según el tamaño deseado del logo */
+    max-width: 50px; /* Tamaño del logo */
     height: auto;
-    margin: 20px auto;
 }
 
 .container {
     max-width: 800px;
     margin: auto;
-    text-align: center; /* Asegura que todo dentro del contenedor esté centrado */
+    text-align: center;
 }
 
 footer {
@@ -48,3 +47,4 @@ footer {
     margin-top: 30px;
     border-top: 1px solid #333;
 }
+
