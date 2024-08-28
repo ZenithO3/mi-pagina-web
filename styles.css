@@ -1,26 +1,27 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #FFFFFF;
-    color: #000000;
+    font-family: 'Georgia', serif; /* Cambiado a una fuente serif */
+    background-color: #f4f4f4; /* Color de fondo suave */
+    color: #333; /* Texto oscuro suave */
     margin: 0;
     padding: 20px;
 }
 
 .header {
     display: flex;
-    justify-content: center; /* Centra horizontalmente el contenido */
-    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 h1 {
     font-size: 3em;
-    margin-right: 10px; /* Espacio entre el texto y el logo */
+    margin-right: 10px;
+    color: #444; /* Color más suave para el título */
 }
 
 h2 {
     text-align: center;
-    color: #000000; 
+    color: #666; 
     margin-bottom: 10px;
 }
 
@@ -28,10 +29,11 @@ p {
     font-size: 1.2em;
     text-align: center;
     margin: 10px 0;
+    color: #555;
 }
 
 .logo img {
-    max-width: 50px; /* Tamaño del logo */
+    max-width: 50px;
     height: auto;
 }
 
@@ -39,12 +41,30 @@ p {
     max-width: 800px;
     margin: auto;
     text-align: center;
+    background-color: #fff; /* Fondo blanco para las secciones */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 footer {
     text-align: center;
     padding: 10px;
     margin-top: 30px;
-    border-top: 1px solid #333;
+    border-top: 1px solid #ddd;
+    color: #888;
 }
 
+button {
+    background-color: #e07a5f; /* Botones con color llamativo */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d5604a; /* Efecto hover en botones */
+}
